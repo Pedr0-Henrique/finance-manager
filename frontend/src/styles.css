@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html, body, #root { height: 100%; margin: 0; }
+
+body {
+  background: #0f172a;
+  color: #e2e8f0;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.MuiPaper-root {
+  border-radius: 14px !important;
+}
